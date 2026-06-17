@@ -31,6 +31,7 @@ function matchCards(img1, img2) {
         cardOne = cardTwo = "";
         return disableDeck = false;
     }
+    
     setTimeout(() => {
         cardOne.classList.add("shake");
         cardTwo.classList.add("shake");
